@@ -369,3 +369,40 @@ html, body {
     margin-left: 130px;
     background-color: #414141;
 }
+
+.mail-box{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 60px; */
+}
+
+.mail-box .buttons input{
+    height:50px;
+    width: 400px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.089);
+    color: #ffff;
+    font-size: 17px;
+    padding: 20px;
+}
+.mail-box .buttons button{
+    height:50px;
+    width: 200px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: red;
+    color: #ffff;
+    font-size: 25px;
+    border: none;
+}
+
+.mail-box p{
+    padding-top:20px;
+    margin-bottom:20px;
+}
