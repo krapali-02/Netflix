@@ -422,3 +422,34 @@ html, body {
     /* gap: 30px;
     margin: 30px; */
 }
+
+.footer-top{
+    padding: 30px;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.footer-bottom{
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    /* flex-direction: column; */
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    
+}
+.footer-boxes{
+    height: 200px;
+    width: 200px;
+    /* background-color: #fff; */
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    /* display: flex;
+    align-items: baseline;
+    justify-content: space-around; */
+}
