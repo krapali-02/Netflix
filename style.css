@@ -357,7 +357,9 @@ html, body {
     align-items: center;
     justify-content: space-between;
 }
-
+.b1:hover , .b2:hover , .b3:hover , .b4:hover , .b5:hover , .b6:hover{
+    background-color: #646363;
+}
 .Q-boxes{
     height: 80px;
     width: 80%;
