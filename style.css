@@ -65,3 +65,84 @@ html, body {
 .navbar .buttons .btn2:hover{
     background-color: rgba(255, 0, 0, 0.562);
 }
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-image-width: 20%;
+    /* position: relative; */
+    background-color: black;
+    /* padding-left: 100px; */
+
+}
+.main img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.3;
+    position: relative;
+    
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    color:white;
+    bottom: 0;
+    /* font-size: 30px; */
+}
+.buttons{
+    height: 70px;
+    width: 100%;
+    margin: 20px;
+}
+.text h1{
+    font-size: 60px;
+}
+.text h6{
+    font-size: 20px;
+    padding: 20px;
+}
+.text h5{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.text .buttons input{
+    height:50px;
+    width: 400px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.089);
+    color: #ffff;
+    font-size: 17px;
+    padding: 20px;
+}
+.text .buttons button{
+    height:50px;
+    width: 200px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: red;
+    color: #ffff;
+    font-size: 25px;
+    border: none;
+}
+.text .buttons button:hover{
+    background-color: rgba(255, 0, 0, 0.562);
+    
+}
