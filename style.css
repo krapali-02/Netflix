@@ -146,3 +146,145 @@ html, body {
     background-color: rgba(255, 0, 0, 0.562);
     
 }
+
+.trend-section{
+    height: auto;
+    width: 100%;
+    background-color:black;
+    color: #ffff;
+    /* padding-left: 90px; */
+    
+}
+.trend-section h2{
+    margin-left: 130px;
+    padding-top:50px ;
+    font-size: 30px;
+  
+}
+.trend-nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: pink; */
+
+}
+.trend-content{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: nowrap;
+    /* padding-left: 60px; */
+
+}
+.trend-content::-webkit-scrollbar{
+    display: none;
+}
+
+.box{
+    height: 270px;
+    min-width: 200px;
+    background-color: pink;
+    margin: 20px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    
+}
+.box1{
+    position: relative;
+    background-image:url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABY63h-h1Gon9p3n_dSWmou2ZyN__EntViMFXWrNen_vEcZGZ7-_P9_z-hxdiUdzgbN83VIT29Y9tL6qEg5MJryhB2k6k1kxsyeFMlH5GvvBIqaqk_qc8LS0XezttgoZGS2hX.webp?r=58c)
+}
+.box2{
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABaBljvFdAV1SGGPNXCcLpojtQjNb4MKKevyP-yHCBfzIW1zsZ-8lMn0-MwNMua8X5VZ0yjjzrfAZ4QFqxDdAIcVxsnTAtj2JNIUSZt5IEgJ15eSk4YSmd0XZk0PBW_XNHsbL.webp?r=1c2);
+}
+.box3{
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcaxAOO875GJCdVuF0m1TZ3t7bpSuHTJByPn3R_IUKqnTVM3S9XmcC4-g-Ep1TblyvtA-xEjnx4TKXkxqIX8uBSLvyp-xQUUyfntLLUhwqlyTdsAomLuue-Df9gov2xymJYy.webp?r=62a);
+}
+.box4{
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWyCCrOmdEbZBIRq4DUZL6Xa9LPn9DvIEnoIVNelgxCX7JVtP9mVfBUEpBrwr2qavnyWURCGQHyxPs3rBZtoOkSdebMME9-QIE-dyQ44guS15spn36u4fLbIKzVO3XasdrYa.webp?r=7c0);
+}
+.box5{
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQzXaGfD-AkdJYI8dTxdVCMHaEKLuB-za_6PRMt6qN8GzCNxzT0rP-njK5RM5nQ3hbyrteXaLslVDxXEs1zhhwV0xq6-piKQwFUOrrkuwBr-omC8vt0Nhx1PCYt1jgkRHmyY.webp?r=3f5);
+}
+.box6{
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABaVXphhPzy58tJ3rd8QfNF5NcfcfNfY5BgnNHimngTEVemB8AL4fdcqXvOx8_0W5zGAbzg3prRKtcfFkwsfE813oiYiuIoYrXdQME5LO71LyHhCPJ0MZNuPOiB0wOOngD05e.webp?r=7e2);
+
+}
+.box7{
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVZ80vhIko8HoG1T7LQ-nJ755jvkMuXcOSNyLUvwPW3GjvA7xulVU6Sd7N_ucMEjaRJ-5On79-9v_4fK_waYqcEWpLp4omLqI69XRVk_zeEY7v5uqPjc8b0Dq9vRR6v_wLvR.webp?r=94b);
+}
+.box8{
+    
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZoN3bLpsDc3kkK1rhctpuy6tLnRy5qvsZ0ZGF84yDEQwivz4y-N3Rl9UH3x-XkbTaJt9JGrU9BTKie4ZrBpRIARIryDFE3lYw8.webp?r=0d8);
+}
+.box9{
+    
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSz2cw4icUVSEUYl88YZOA-3omepErekmOdyt5ywWsW-psmyYByB3Lv-DfawT-V2bMR4_e0yo9Ak71oIHXqQ3EXmWMFzC2Xo6763w7eW_ANBVsmdrNM7SyF4QeY78rNvuedV.webp?r=630);
+}
+.box10{
+    
+    background-image: url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTk_B0l_BvDJ7CQuWOAax9ZKSAe65vFGUMjAee8pcvuYXDFDvcnFaF8nOEuwxBg-TFKzHTqhdD3D7zlMsXSpA_BQTHf-ouBVNdwJIJvNQzUGje4WVrnptKL5Ywqu9hV7pg3A.webp?r=f34);
+}
+.num-box{
+    height: 100px;
+    width: 60px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.box  span{
+    /* display: flex;
+    align-items: end;
+    justify-content: start; */
+    left: -35%;
+    bottom: 10%;
+    font-size: 90px;
+    font-weight: bolder;
+    color: black;
+    -webkit-text-stroke: 3px white;
+    position: absolute;
+}
+.trend-section .scroll-btn-right{
+    position: absolute;
+    right: 10px;
+    top: 135%;
+    transform: translate(-50%);
+    width: 30px;
+    height: 120px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+.trend-section .scroll-btn-left{
+    position: absolute;
+    left: 10px;
+    top: 135%;
+    transform: translate(-50%);
+    width: 30px;
+    height: 120px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10;
+    margin-left: 30px;
+
+}
+
